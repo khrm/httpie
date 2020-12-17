@@ -1,4 +1,4 @@
-FROM alpine
+FROM quay.io/libpod/alpine:latest
 
 ARG VERSION
 RUN apk add --update --no-cache py-pip && \
